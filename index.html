@@ -1,35 +1,191 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF -8">
-    <meta name="viewport" content="widht=device'widht, initial-scale=1.0">
-    <title>Document</title>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" 
+        integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>glampingValleluna</title>
+
+
 </head>
+
 <body>
-    <h1>Daniel Varon</h1>
-    <p>Soy un desarrollador y este es mi portafolio</p>
-    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolor totam repellendus maiores soluta amet ea recusandae id at quidem modi, voluptatibus nulla impedit non animi similique, ducimus perferendis! Aspernatur, animi.</p>
     
-    <section id="Casas">
-        <h2>Casa Loto</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatibus, dolor numquam voluptatum consequuntur omnis ducimus. Dignissimos, soluta sint! Iste temporibus veritatis unde dolorem culpa cum assumenda nobis, ratione fugiat.</p>
-        
-        <h2>Casa Colibri</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates voluptatibus, dolor numquam voluptatum consequuntur omnis ducimus. Dignissimos, soluta sint! Iste temporibus veritatis unde dolorem culpa cum assumenda nobis, ratione fugiat.</p>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary" style="background: #295233;">
+        <div class="container-fluid" style="background:#295233">
+            <a class="navbar-brand" href="./index.html">Glamping ValleLuna</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                    <a class="nav-link active" aria-current="page" href="./index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./mision.html">Mision</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link" href="./planes.html">Planes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./fotos.html">Fotos</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+    
 
-    </section>
+    <div class="container">
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-12 col-md-6">
+                <div id="carouselExampleCaptions" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/356179410.jpg?k=f43ed7e8852f4498a863ac2bed946fba268635663fa1dd606d4ead05c1f59d2a&o=" class="d-block w-100">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+                
+            </div>
 
-    <section id="Planes">
-        <h2>Plan Pareja</h2>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates corporis optio mollitia blanditiis ratione nulla facere tempore rem corrupti cum velit cupiditate nemo, inventore quos voluptate. Incidunt similique mollitia provident.</p>
+            <div class="col-12 col-md-6">
+                <h2>Casa Loto</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nemo voluptates. Voluptate architecto ipsam reiciendis ad? Facilis aliquam, atque ab labore, maiores quisquam id reiciendis reprehenderit, a obcaecati doloribus veniam!</p>
+            </div>
+        </div>
 
-        <h2>Plan Familia 4 Personas</h2>
-        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quos iste obcaecati enim sequi id aliquam blanditiis asperiores atque nesciunt? Vero minus maxime deleniti praesentium commodi cum aut consequuntur atque reiciendis?</p>
-        
-    </section>
+        <div class="row" style="margin-top: 30px;">
+            <div class="col-12 col-md-6">
+                <div id="carouselColibri" class="carousel slide">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselColibri" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselColibri" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselColibri" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                        <img src="https://cf.bstatic.com/xdata/images/hotel/max1024x768/354360029.jpg?k=7e829c7703027ea7ffda1a5b377e2980548dfd28020ad716cbad841464b750aa&o=" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>First slide label</h5>
+                            <p>Some representative placeholder content for the first slide.</p>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Second slide label</h5>
+                            <p>Some representative placeholder content for the second slide.</p>
+                        </div>
+                        </div>
+                        <div class="carousel-item">
+                        <img src="..." class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Third slide label</h5>
+                            <p>Some representative placeholder content for the third slide.</p>
+                        </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselColibri" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselColibri" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+
+            <div class="col-12 col-md-6">
+                <h2>Casa Colibri</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, nemo voluptates. Voluptate architecto ipsam reiciendis ad? Facilis aliquam, atque ab labore, maiores quisquam id reiciendis reprehenderit, a obcaecati doloribus veniam!</p>
+            </div>
+        </div>
+
+        <div>
+            <h1 style="margin: 30px;">Donde Nos Encontramos Ubicados</h1>
+        </div>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3978.087675810315!2d-74.62490182432653!3d4.3946922955794685!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8e3f232b6cad47f1%3A0x6642c25857e51944!2sGlamping%20Valle%20Luna!5e0!3m2!1ses-419!2sco!4v1764186951624!5m2!1ses-419!2sco" width="100%" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+
+    </div>
+    
     <footer>
-        <h3>Contacto</h3>
-        <h3>Nuestras redes sociales</h3>
+        <div class="container">
+            <div class="row">
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h3>Quienes Somos</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nemo aspernatur accusamus eum consequuntur illum, velit temporibus laborum vero voluptates, quod consectetur similique! Voluptatibus voluptatum maxime ipsa asperiores ullam sapiente perferendis.</p>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h3>Reservaciones</h3>
+                    <div class="milink"><a href="https://www.booking.com/hotel/co/valle-luna-tocaima.es.html?utm_source=ig&utm_medium=social&utm_content=link_in_bio&fbclid=PAZXh0bgNhZW0CMTEAc3J0YwZhcHBfaWQMMjU2MjgxMDQwNTU4AAGnqPMuQsX8_WhGIjZb8yJL7l56MRFwIL23ccy2uCq6TtseGBgWpMvBjoI1hEY_aem_tFKvLRXCHLPTKEWKBFTrXw"></a></div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h3>Nuestros Servicios</h3>
+                    <nav>
+                        <li>Parqueadero</li>
+                        <li>Piscina</li>
+                        <li>WIFI gratis</li>
+                        <li>Zonas Comunes</li>
+                    </nav>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                    <h3>Conecta Con Nosotros</h3>
+                    <a href="https://www.instagram.com/glampingValleluna/" style="margin-left: 15%; float: left;"><img src="./Images/Insta.png" class="iconoredes" ></a>
+                    <a href="https://www.linkedin.com/in/daniel-esteban-varon/"style="margin-left: 4px"><img src="./Images/Linkd.png" class="iconoredes"></a>
+                </div>
+            </div>
+        </div>
     </footer>
+
+    <div id="contactos"><a href="./Contactanos.html">Contactanos</a></div>
+    <div id="quiensom"><a href="./QuienesSomos.html">Quienes Somos</a></div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.min.js" integrity="sha384-G/EV+4j2dNv+tEPo3++6LCgdCROaejBqfUeNjuKAiuXbjrxilcCdDz6ZAVfHWe1Y" crossorigin="anonymous"></script>
+    <script src="./js/main.js"></script>
 </body>
-</html> 
+
+</html>
