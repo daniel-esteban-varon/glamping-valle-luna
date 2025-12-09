@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+        integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/notiflix@3.2.8/src/notiflix.min.css">
+    <link rel="stylesheet" href="./css/index.css">
+
+    <title>Registro</title>
+
+
+</head>
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" style="background: #295233;">
+    <a class="navbar-brand" href="./index.html">Glamping ValleLuna</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+        <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./mision.html">Mision</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./planes.html">Planes</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" href="./fotos.html">Fotos</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" role="button" data-toggle="dropdown" aria-expanded="false">
+            Sesion
+            </a>
+            <div class="dropdown-menu">
+            <a class="dropdown-item" href="./login.html">Ingresa</a>
+            <a class="dropdown-item" href="./registro.html">Registrate</a>
+            </div>
+        </li>
+        </ul>
+    </div>
+    </nav>
+
+    <h2 style="align-items: center; margin-left: 150px; margin-top: 50px;">Ingresa tu Usuario</h2>
+
+    <div id="registro">
+    <div class="form-group">
+        <label for="LastName">Appellidos</label>
+        <input type="text" class="form-control" id="LastName">
+    </div>
+    <div class="form-group">
+        <label for="Name">Nombres</label>
+        <input type="text" class="form-control" id="Name">
+    </div>
+    <div class="form-group">
+        <label for="EmailAddress">Direccion de Correo Electronico</label>
+        <input type="email" class="form-control" id="EmailAddress">
+        <small id="emailHelp" style="color: aliceblue; font-family: 'Courier New', Courier, monospace;">Nunca compartiremos tu correo con nadie mas.</small>
+    </div>
+    <div class="form-group">
+        <label for="Pass">Password</label>
+        <input type="password" class="form-control" id="Pass">
+    </div>
+    <div class="form-group form-check">
+        <input type="checkbox" class="form-check-input" id="exampleCheck1">
+        <label class="form-check-label" for="exampleCheck1">Recuerdame</label>
+    </div>
+    <button class="btn btn-primary" onclick="guardar()">Submit</button>
+</div>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.min.js"
+        integrity="sha384-+sLIOodYLS7CIrQpBjl+C7nPvqq+FbNUBDunl/OZv93DB7Ln/533i8e/mZXLi/P+"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/notiflix@3.2.8/dist/notiflix-aio-3.2.8.min.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
